@@ -1,4 +1,10 @@
 package com.lab.proxies;
-
-public class EmailNotificationProxy {
+import com.lab.model.Comment;
+import org.springframework.stereotype.Component;
+@Component
+public class EmailNotificationProxy implements CommentNotificationProxy {
+    @Override
+    public void sendNotification(Comment comment) {
+        System.out.println("  [Email] Notification: " + comment);
+    }
 }
