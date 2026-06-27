@@ -6,6 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/Chuong2/lab-spring-di/pom.xml" />
         <option value="$PROJECT_DIR$/lab2-bean-lifecycle/pom.xml" />
+        <option value="$PROJECT_DIR$/lab3-spring-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/Chuong2/lab3-spring-boot/pom.xml" />
       </list>
     </option>
   </component>
