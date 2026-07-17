@@ -1,0 +1,3 @@
+CREATE DATABASE IF NOT EXISTS gdu_jpa_lab
+CHARACTER SET utf8mb4
+COLLATE utf8mb4_unicode_ci;

@@ -1,0 +1,3 @@
+com\example\productapp\controller\ProductController.class
+com\example\productapp\ProductAppApplication.class
+com\example\productapp\model\Product.class

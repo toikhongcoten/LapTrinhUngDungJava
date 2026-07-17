@@ -10,12 +10,14 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Lab01" target="21" />
       <module name="lab1-spring-di" target="17" />
       <module name="lab2-bean-lifecycle" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Lab01" options="-parameters" />
       <module name="lab3-spring-boot" options="-parameters" />
     </option>
   </component>
